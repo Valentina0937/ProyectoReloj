@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.reloj{
+    width: 500px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+    color: aqua;
+}
+.fecha{
+    width: 500px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+    color: aqua;
+}
+.todo{
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 15px solid aqua;
+    width: 500px;
+    height: 350px;
+    border-radius: 55px;
+}
